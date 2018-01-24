@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bimal.fitness.MainActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        android:text="BCN FITNESS"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="800dp"
+        android:text="stay fit stay healthy"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="#FFFFFF"/>
+
+
+</android.support.constraint.ConstraintLayout>
